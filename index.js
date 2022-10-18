@@ -11,10 +11,13 @@ app.use(express.static(__dirname));
 app.use(cors());
 
 mongoose
-  .connect("mongodb://localhost:27017/People", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://mansur07:mansur123@cluster07.tuechci.mongodb.net/?retryWrites=true&w=majority",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then((req, res) => {
     console.log("Connected to the database");
   })
