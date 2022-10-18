@@ -1,0 +1,144 @@
+/* styly for the container */
+ 
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto";
+    outline: none;
+    border: none;
+}
+
+Html,body{
+    height: 100%;
+    background: #0A0A0A;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #0de7dc;
+}
+
+.login{
+    height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 8px;
+}
+.card{
+    margin-top: 28px;
+        height: 100%;
+        max-height: 646px;
+        width: 396px;
+        background: #121212;
+        border: 1px solid #373737;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: max-height 0.2s;
+}
+.head {
+    width: 100%;
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+}
+
+.head a {
+    height: 100%;
+    padding: 0 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(140, 140, 140);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.tabs {
+    height: calc(100% - 72px); 
+    display: flex;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    padding: 44px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    right: 0;
+   
+}
+.lab{
+    color:white;
+}
+
+
+.inputs {
+    width: 100%;
+    padding-top: 1px;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    width: 100%;
+    font-size: 17px;
+    background: #1C1C1C;
+    border-radius: 8px;
+    padding: 16px 18px 16px 51px;
+    color: rgb(233, 31, 31);
+}
+.checkbox {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkbox span {
+    display: flex;
+    align-items: center;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    user-select: none;
+}
+
+.checkbox input {
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    margin-right: 16px;
+    background-color: #1C1C1C;
+}
+.card button {
+    display: block;
+
+    padding: 14px 52px;
+    border-radius: 12px;
+    color: black;
+    font-weight: 700;
+    font-size: 21px;
+    cursor: pointer;
+}
+.gen{
+    color: white;
+}
